@@ -11,16 +11,18 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, 2024-01 (expected)
+* M.S. in Computer Science and Technology, Nankai University, 2019
+* B.S. in Computer Science and Technology, Central China Normal University, 2016
+
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2023: Biostatistics summer intern (Data science and machine learning)
+  * Merck, 
+  * Duties included: Built a novel convex optimization algorithm to improve polygenic rsik score prediction achiving state-of-the-art performance.
+  * Supervisor: Judong Shen, Wujuan Zhong, Song Zhai
 
 * Fall 2015: Research Assistant
   * Github University
