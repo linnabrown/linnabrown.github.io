@@ -11,23 +11,13 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, 2024-01 (expected)
-* M.S. in Computer Science and Technology, Nankai University, 2019
-* B.S. in Computer Science and Technology, Central China Normal University, 2016
-
-
+* Ph.D in Bioinformatics and Computational Biology, University of North Carolina at Chapel Hill, 2024-05
 
 Work experience
 ======
 * Summer 2023: Biostatistics summer intern (Data science and machine learning)
   * Merck, 
   * Duties included: Built a novel convex optimization algorithm to improve polygenic rsik score prediction achiving state-of-the-art performance.
-  * Supervisor: Judong Shen, Wujuan Zhong, Song Zhai
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
