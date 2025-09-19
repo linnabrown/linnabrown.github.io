@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Le Lena Huang / Site Title"
+title                    : "Le Lena Huang / AI Scientist"
 title_separator          : "-"
 name                     : &name "Le Lena Huang"
 description              : &description "personal description"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Le (Lena) Huang"
   avatar           : "profile.png"
-  bio              : "Computational Biolgy Ph.D. student"
-  location         : "Chapel Hill, NC"
-  employer         : "UNC-Chapel Hill"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Le+Huang"
+  bio              : "AI Scientist / Senior Staff Data Scientist"
+  location         : "Bellevue, WA"
+  employer         : "GE HealthCare"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=thTEg3IAAAAJ&hl=en"
-  email            : "lehuang@unc.edu"
+  email            : 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "LeHuang9"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
