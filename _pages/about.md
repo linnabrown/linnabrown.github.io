@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "about"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,53 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am an AI research scientist (Senior Staff Data Scientist) at [GE HealthCare](https://www.gehealthcare.com/). My research focus on post-training of large vision language model, AI (Multi-) Agents, responsible AI in HealthCare domain for multiple modalities. 
 
-A data-driven personal website
+Prior to joining GE HealthCare, I was Bioinformatics and Computational Biology PhD student at the [University of North Carolina at Chapel Hill](https://www.unc.edu/) under the supervision of [Dr. Yun Li](https://sph.unc.edu/adv_profile/yun-li-phd/) and [Dr. Laura Raffield](https://www.med.unc.edu/genetics/directory/laura-raffield-phd/). During my PhD study, I majorly focused on using deep learning methods to perform super-resolution for genome data. I developed a convex optimization algorithms for high-dimensional matrices from real datasets (e.g., UK Biobank data) to accelerate linear regression using strong rules and safe rules. I developed a statistical method to perform thousands of association analyses between genome-predicted metabolites and over 800 ICD-10 diseases.
+
+I also was fortunate to have opportunity to develop a method during my Biostatistics machine learning summer intern at Merck Sharp & Dohme. I developed A Fast and Powerful Machine Learning Method for Polygenic Risk Score Prediction by Leveraging Genotype-Environment Interactions, which achived state-of-the-art compared with other GEI methods.
+
+Papers
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+# Publications
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## [Focus on what matters: Enhancing medical vision-language models with automatic attention alignment tuning](https://aclanthology.org/2025.acl-long.460.pdf)
+A Chang, **L Huang**, AJ Boyd, P Bhatia, T Kass-Hout, C Xiao, F Ma  
+*In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics*, ACL 2025, Main
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## MedHEval: Benchmarking Hallucinations and Mitigation Strategies in Medical Large Vision-Language Models
+A Chang, **L Huang**, P Bhatia, T Kass-Hout, F Ma, C Xiao  
+*arXiv preprint arXiv:2503.02157*, 2025
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Gene expression and splicing QTL analysis of blood cells in African American participants from the Jackson Heart Study
+J Wen, Q Sun, **L Huang**, L Zhou, MF Doyle, L Ekunwe, P Durda, NC Olson, ...  
+*Genetics* 228 (1), iyae098, 2024
 
-**Markdown generator**
+## GENETIC DISSECTION OF COMPLEX DISEASES AND TRAITS WITH OMICS
+**L Huang**  
+*PhD Dissertation, University of North Carolina at Chapel Hill*, 2024
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Carbohydrate-active enzyme annotation in microbiomes using dbCAN
+J Zheng, **L Huang**, H Yi, Y Yan, X Zhang, J Akresi, Y Yin  
+*bioRxiv*, 2024
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## dbCAN3: automated carbohydrate-active enzyme and substrate annotation
+J Zheng, Q Ge, Y Yan, X Zhang, **L Huang**, Y Yin  
+*Nucleic Acids Research* 51 (W1), W115-W121, 2023
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## dbCAN-seq update: CAZyme gene clusters and substrates in microbiomes
+J Zheng, B Hu, X Zhang, Q Ge, Y Yan, J Akresi, V Piyush, **L Huang**, Y Yin  
+*Nucleic Acids Research* 51 (D1), D557-D563, 2023
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Innovative computational approaches shed light on genetic mechanisms underlying cognitive impairment among children born extremely preterm
+W Liu, Q Sun, **L Huang**, A Bhattacharya, GW Wang, X Tan, KCK Kuban, ...  
+*Journal of neurodevelopmental disorders* 14 (1), 16, 2022
+
+## Pleiotropic modifiers of age-related diabetes and neonatal intestinal obstruction in cystic fibrosis
+MA Aksit, H Ling, RG Pace, KS Raraigh, F Onchiri, AV Faino, K Pagel, **L Huang**, ...  
+*The American Journal of Human Genetics* 109 (10), 1894-1908, 2022
+
+## TOP-LD: A tool to explore linkage disequilibrium with TOPMed whole-genome sequence data
+**L Huang**, JD Rosen, Q Sun, J Chen, MM Wheeler, Y Zhou, YI Min, ...  
+*The American Journal of Human Genetics* 109 (6), 1175-1181, 2022
