@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an AI research scientist (Senior Staff Data Scientist) at [GE HealthCare](https://www.gehealthcare.com/). My research focus on post-training of large vision language model, AI (Multi-) Agents, responsible AI in HealthCare domain for multiple modalities. 
+I am an enthusiastic AI research scientist (Senior Staff Data Scientist) at [GE HealthCare](https://www.gehealthcare.com/) Foundation AI group. My research focus on post-training of large vision language model, AI (Multi-) Agents, responsible AI in HealthCare domain for multiple modalities. 
 
-Prior to joining GE HealthCare, I was Bioinformatics and Computational Biology PhD student at the [University of North Carolina at Chapel Hill](https://www.unc.edu/) under the supervision of [Dr. Yun Li](https://sph.unc.edu/adv_profile/yun-li-phd/) and [Dr. Laura Raffield](https://www.med.unc.edu/genetics/directory/laura-raffield-phd/). During my PhD study, I majorly focused on using deep learning methods to perform super-resolution for genome data. I developed a convex optimization algorithms for high-dimensional matrices from real datasets (e.g., UK Biobank data) to accelerate linear regression using strong rules and safe rules. I developed a statistical method to perform thousands of association analyses between genome-predicted metabolites and over 800 ICD-10 diseases.
-
-I also was fortunate to have opportunity to develop a method during my Biostatistics machine learning summer intern at Merck Sharp & Dohme. I developed A Fast and Powerful Machine Learning Method for Polygenic Risk Score Prediction by Leveraging Genotype-Environment Interactions, which achived state-of-the-art compared with other GEI methods.
+Prior to joining GE HealthCare, I was a Bioinformatics and Computational Biology PhD student at the [University of North Carolina at Chapel Hill](https://www.unc.edu/) under the supervision of [Dr. Yun Li](https://sph.unc.edu/adv_profile/yun-li-phd/) and [Dr. Laura Raffield](https://www.med.unc.edu/genetics/directory/laura-raffield-phd/). During my PhD study, I majorly focused on using deep learning methods to perform super-resolution for genome interaction data. I developed a convex optimization algorithms for high-dimensional matrices from real datasets (e.g., UK Biobank data) to accelerate linear regression using strong rules and safe rules. I developed a statistical method to perform thousands of association analyses between genome-predicted metabolites and over 800 ICD-10 diseases. In 2023, during my Biostatistics machine learning summer intern at Merck Sharp & Dohme, I was also fortunate to develop a machine learning method for polygenic risk score with genome-environment interaction.
 
 Publications
 ======
@@ -29,23 +27,19 @@ A Chang, **L Huang⭐**, P Bhatia, T Kass-Hout, F Ma, C Xiao
 **L Huang**  
 *PhD Dissertation, University of North Carolina at Chapel Hill*, 2024
 
-### TOP-LD: A tool to explore linkage disequilibrium with TOPMed whole-genome sequence data
+### [TOP-LD: A tool to explore linkage disequilibrium with TOPMed whole-genome sequence data](https://primedconsortium.org/publications/top-ld-tool-explore-linkage-disequilibrium-topmed-whole-genome-sequence-data)
 **L Huang***, JD Rosen*, Q Sun*, J Chen, MM Wheeler, Y Zhou, YI Min, ...  
 *The American Journal of Human Genetics* 109 (6), 1175-1181, 2022
 
-### A systematic evaluation of Hi-C data enhancement methods for enhancing PLAC-seq and HiChIP data
-**L Huang*** *, Y Yang*, G Li, M Jiang, J Wen, A Abnousi, JD Rosen, M Hu, Y Li  
+### [A systematic evaluation of Hi-C data enhancement methods for enhancing PLAC-seq and HiChIP data](https://pmc.ncbi.nlm.nih.gov/articles/PMC9116213/)
+**L Huang** *, Y Yang, G Li, M Jiang, J Wen, A Abnousi, JD Rosen, M Hu, Y Li  
 *Briefings in Bioinformatics* 23 (3), bbac145, 2022
 
-### Machine Learning and Deep Learning
-**L Huang*** *, G Li*, H Cho, J Roach, Y Li  
-*Machine Learning in Dentistry*, 163, 2021
-
-### AcrDB: a database of anti-CRISPR operons in prokaryotes and viruses
-**L Huang**, B Yang, H Yi, A Asif, J Wang, T Lithgow, H Zhang, FAA Minhas, ...  
+### [AcrDB: a database of anti-CRISPR operons in prokaryotes and viruses](https://academic.oup.com/nar/article/49/D1/D622/5929236)
+**L Huang***, B Yang*, H Yi, A Asif, J Wang, T Lithgow, H Zhang, FAA Minhas, ...  
 *Nucleic Acids Research* 49 (D1), D622-D629, 2021
 
-### dbCAN-seq: a database of carbohydrate-active enzyme (CAZyme) sequence and annotation
+### [dbCAN-seq: a database of carbohydrate-active enzyme (CAZyme) sequence and annotation](https://pmc.ncbi.nlm.nih.gov/articles/PMC5753378/)
 **L Huang**, H Zhang, P Wu, S Entwistle, X Li, T Yohe, H Yi, Z Yang, Y Yin  
 *Nucleic Acids Research* 46 (D1), D516-D521, 2018
 
