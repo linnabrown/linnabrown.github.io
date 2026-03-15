@@ -15,9 +15,9 @@ Prior to joining GE HealthCare, I was a Bioinformatics and Computational Biology
 Publications
 ======
 
-### GEiPRS: A Fast and Powerful Machine Learning Method for Polygenic Risk Score Prediction by Leveraging Genotype-Environment Interactions
-**Le Huang***, Wujuan Zhong*, Song Zhai, and Judong Shen
-Under review in Briefing in Bioinformatics
+### GEiPRS: A Fast and Powerful Machine Learning Method for Polygenic Risk Score Prediction by Leveraging Genotype-Environment Interactions. [Github](https://github.com/linnabrown/geiprs)
+**Le Huang***, Wujuan Zhong*, Song Zhai, Judong Shen
+*Briefing in Bioinformatics*, accepted.
 
 ### [Focus on what matters: Enhancing medical vision-language models with automatic attention alignment tuning](https://aclanthology.org/2025.acl-long.460.pdf)
 A Chang, **L Huang⭐**, AJ Boyd, P Bhatia, T Kass-Hout, C Xiao, F Ma  
